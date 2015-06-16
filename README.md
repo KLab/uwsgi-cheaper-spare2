@@ -1,9 +1,15 @@
 # uWSGI spare2 algorithm
 
-Backport spare2 cheaper algorithm to uWSGI 2.0.
+Backport spare2 cheaper algorithm from uWSGI 2.1 to uWSGI 2.0.
 
 ref: https://github.com/unbit/uwsgi/pull/944
 
+
+## Build
+
+```console
+$ uwsgi --build-plugin https://github.com/KLab/uwsgi-cheaper-spare2
+```
 
 ## Sample configuration
 
